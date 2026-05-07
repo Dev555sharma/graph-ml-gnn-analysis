@@ -1,0 +1,26 @@
+# Overwrite .gitignore with this content
+@"
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data — too large for GitHub (auto-downloaded via OGB)
+data/
+
+# Model checkpoints
+experiments/results/*.pt
+experiments/logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+git add .gitignore
+git commit -m "fix: exclude data/ and checkpoints from git"

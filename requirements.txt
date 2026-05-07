@@ -1,0 +1,29 @@
+# Core
+torch>=2.1.0
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+
+# GNN Frameworks
+torch-geometric
+dgl
+
+# OGB Datasets
+ogb>=1.3.6
+
+# Visualization & Analysis
+networkx
+matplotlib
+seaborn
+plotly
+
+# Experiment Tracking
+wandb
+tqdm
+pyyaml
+
+# Notebook
+jupyterlab
+ipykernel
