@@ -24,3 +24,7 @@ experiments/logs/
 
 git add .gitignore
 git commit -m "fix: exclude data/ and checkpoints from git"
+# Pycache
+__pycache__/
+*.pyc
+*.pyo
